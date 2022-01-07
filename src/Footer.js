@@ -6,7 +6,7 @@ export default function Footer() {
       <small>
         {" "}
         <a
-          href="https://github.com/angv2852/weather-app"
+          href="https://github.com/angv2852/weather-react-app"
           target="blank"
           rel="noreferrer"
         >
