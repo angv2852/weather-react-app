@@ -1,0 +1,32 @@
+h1 {
+  font-size: 40px;
+}
+h2 {
+  line-height: 30px;
+  font-size: 40px;
+}
+h1,
+p,
+ul {
+  margin-top: 10px;
+}
+p {
+  line-height: 5px;
+  color: #5f5f5a;
+}
+ul {
+  list-style: none;
+  line-height: 35px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.degrees {
+  margin-top: -25px;
+}
+button.active {
+  cursor: default;
+  color: black;
+  text-decoration: none;
+  background: none;
+  border: none;
+}

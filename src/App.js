@@ -1,13 +1,14 @@
-import logo from "./logo.svg";
+import React from "react";
+import Container from "./Container";
+import Footer from "./Footer";
 import "./App.css";
-import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <Container />
+      <Footer />
     </div>
   );
 }
-
 export default App;
