@@ -14,7 +14,7 @@ export default function Footer() {
         </a>{" "}
         by Angela Sullivan, hosted on{" "}
         <a
-          href="https://priceless-minsky-90494c.netlify.app/"
+          href="https://eloquent-shockley-047514.netlify.app"
           target="_blank"
           rel="noreferrer"
         >
