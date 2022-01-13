@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 export default function Container() {
   return (
     <div className="Container">
-      <CurrentWeather />
+      <CurrentWeather defaultCity="Las Vegas" />
       <SearchBar />
     </div>
   );

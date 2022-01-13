@@ -1,0 +1,11 @@
+.btn {
+  transition: 200ms ease-in-out;
+  box-shadow: 3px 3px rgb(99, 98, 98);
+  border-radius: 5px;
+  margin: 5px 5px;
+  background: #d0faf6;
+}
+.SearchBar {
+  line-height: 30px;
+  padding: 1px 2px;
+}

@@ -25,6 +25,8 @@ export default function SearchBar() {
           id="current-btn"
         />
       </form>
+      <hr />
+      <p>Last updated Monday, 13:28</p>
     </div>
   );
 }
