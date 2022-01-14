@@ -1,5 +1,4 @@
 import React from "react";
-import FormattedDate from "./FormattedDate";
 import "./SearchBar.css";
 
 export default function SearchBar() {
@@ -26,10 +25,6 @@ export default function SearchBar() {
           id="current-btn"
         />
       </form>
-      <hr />
-      <p>
-        <FormattedDate />
-      </p>
     </div>
   );
 }
