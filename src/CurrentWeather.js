@@ -6,7 +6,6 @@ export default function CurrentWeather(props) {
   const [currentWeather, setCurrentWeather] = useState({ loaded: false });
 
   function showTemperature(response) {
-    console.log(response);
     setCurrentWeather({
       loaded: true,
       city: response.data.name,
