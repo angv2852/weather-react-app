@@ -1,4 +1,5 @@
 import React from "react";
+import FormattedDate from "./FormattedDate";
 import "./SearchBar.css";
 
 export default function SearchBar() {
@@ -26,7 +27,9 @@ export default function SearchBar() {
         />
       </form>
       <hr />
-      <p>Last updated Monday, 13:28</p>
+      <p>
+        <FormattedDate />
+      </p>
     </div>
   );
 }
