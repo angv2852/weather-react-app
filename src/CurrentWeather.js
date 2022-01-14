@@ -58,6 +58,29 @@ export default function CurrentWeather(props) {
             </ul>
           </div>
         </div>
+        <div className="SearchBar">
+          <form id="search-form">
+            <input
+              type="text"
+              placeholder="Enter city name"
+              autoFocus="on"
+              autoComplete="off"
+              id="city-name-input"
+            />
+            <input
+              type="submit"
+              value="Search"
+              id="city-button"
+              className="btn btn-outline-primary"
+            />
+            <input
+              type="submit"
+              value="Current City"
+              className="btn btn-outline-danger"
+              id="current-btn"
+            />
+          </form>
+        </div>
       </div>
     );
   } else {
