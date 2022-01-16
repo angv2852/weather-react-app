@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import WeatherToday from "./WeatherToday";
+import FormattedDate from "./FormattedDate";
 import "./CurrentWeather.css";
 import axios from "axios";
 
@@ -17,6 +18,7 @@ export default function CurrentWeather(props) {
       humidity: response.data.main.humidity,
       windSpeed: response.data.wind.speed,
       feelsLike: response.data.main.feels_like,
+      date: new Date(response.data.dt * 1000),
     });
   }
   function search() {
@@ -62,6 +64,10 @@ export default function CurrentWeather(props) {
             id="current-btn"
           />
         </form>
+        <div className="date">
+          <hr />
+          <FormattedDate date={currentWeather.date} />
+        </div>
       </div>
     );
   } else {
