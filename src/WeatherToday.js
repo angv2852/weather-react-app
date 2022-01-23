@@ -14,7 +14,7 @@ export default function WeatherToday(props) {
             </div>
           </div>
           <div className WeatherIcon>
-            <WeatherIcon />
+            <WeatherIcon code={props.weather.icon} />
           </div>
         </div>
         <div className="col-6">
