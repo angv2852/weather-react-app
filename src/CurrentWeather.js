@@ -59,12 +59,6 @@ export default function CurrentWeather(props) {
             id="city-button"
             className="btn btn-outline-primary"
           />
-          <input
-            type="submit"
-            value="Current City"
-            className="btn btn-outline-danger"
-            id="current-btn"
-          />
         </form>
         <div className="WeatherForecast">
           <hr />
