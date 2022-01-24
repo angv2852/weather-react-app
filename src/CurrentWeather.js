@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import WeatherToday from "./WeatherToday";
 import FormattedDate from "./FormattedDate";
+import WeatherForecast from "./WeatherForecast";
 import "./CurrentWeather.css";
 import axios from "axios";
 
@@ -11,6 +12,7 @@ export default function CurrentWeather(props) {
   function showTemperature(response) {
     setCurrentWeather({
       loaded: true,
+      coordinates: response.data.coord,
       city: response.data.name,
       icon: response.data.weather[0].icon,
       description: response.data.weather[0].description,
@@ -64,6 +66,10 @@ export default function CurrentWeather(props) {
             id="current-btn"
           />
         </form>
+        <div className="WeatherForecast">
+          <hr />
+          <WeatherForecast coordinates={currentWeather.coordinates} />
+        </div>
         <div className="date">
           <hr />
           <FormattedDate date={currentWeather.date} />
