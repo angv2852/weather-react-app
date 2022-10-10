@@ -1,3 +1,10 @@
+Weather App built using React
+
+This project was created during the SheCodes React workshop. I converted my Vanilla Weather App to React. I was able to learn and apply JS closures, events, states, forms, conditional rendering, loops and external components, and added animated icons. This also includes using the Ajax method to retrieve data from an API to get live weather data. 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
